@@ -24,13 +24,14 @@ section {
     font-weight: 700;
     font-size: 35px;
 }
+
 .description {
     font-weight: 400;
     font-size: 16px;
 }
 
 /* Header Section */
-.header-section{
+.header-section {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,16 +49,17 @@ section {
     margin-top: 20px;
 }
 
-/* Main Section */
+/* Failure Section */
 .failure-section {
     display: flex;
     gap: 70px;
+    justify-content: center;
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-.my-failure{
+.my-failure {
     padding-top: 120px;
     padding-right: 90px;
 }
@@ -79,6 +81,36 @@ section {
 .failure-list i {
     color: #16D887;
     margin-right: 15px;
+}
+
+/* Plan Section */
+.plan-section {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.plan-list {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin-top: 18px;
+}
+
+.sub-title-description {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+    margin-top: 14px;
 }
 
 /* Footer Section */
