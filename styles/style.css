@@ -5,6 +5,10 @@
 }
 
 /* Common */
+section {
+    margin-top: 120px;
+}
+
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
@@ -16,6 +20,15 @@
     margin-top: 20px;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 35px;
+}
+.description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 /* Header Section */
 .header-section{
     background-image: url('../images/banner/banner3.png');
@@ -25,22 +38,47 @@
     text-align: right;
 }
 
-.header-title {
+.header-section .title {
     color: #FFFFFF;
-    font-weight: 700;
     font-size: 60px;
 }
 
-.sub-title-white {
+.header-section .description {
     color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
     margin-top: 20px;
 }
 
 /* Main Section */
+.failure-section {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
 
+.my-failure{
+    padding-top: 120px;
+    padding-right: 90px;
+}
 
+.failure-section .title {
+    margin-bottom: 24px;
+    color: #151414;
+}
 
+.failure-section .description {
+    margin-bottom: 16px;
+    color: #444343;
+}
+
+.failure-list .description {
+    margin-bottom: 8px;
+}
+
+.failure-list i {
+    color: #16D887;
+    margin-right: 15px;
+}
 
 /* Footer Section */
