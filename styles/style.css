@@ -1,0 +1,46 @@
+/* Universal*/
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common */
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 22px;
+    margin-top: 20px;
+}
+
+/* Header Section */
+.header-section{
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 170px 110px 715px;
+    text-align: right;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.sub-title-white {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Main Section */
+
+
+
+
+/* Footer Section */
