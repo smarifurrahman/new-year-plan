@@ -113,4 +113,22 @@ section {
     margin-top: 14px;
 }
 
+/* Down Banner Section */
+.down-banner-section {
+    margin-left: 150px;
+    margin-right: 150px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 60px 65px;
+    border-radius: 8px;
+}
+
+.down-banner .title {
+    border-bottom: 24px;
+}
+
+
 /* Footer Section */
