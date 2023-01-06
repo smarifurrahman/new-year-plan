@@ -4,11 +4,17 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Common */
-section {
+/* Common in elements*/
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+section, footer {
     margin-top: 120px;
 }
 
+/* Common class*/
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
@@ -55,8 +61,6 @@ section {
     gap: 70px;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .my-failure {
@@ -86,14 +90,11 @@ section {
 /* Plan Section */
 .plan-section {
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .plan-list {
     display: flex;
-    gap: 80px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     margin-top: 50px;
@@ -115,20 +116,79 @@ section {
 
 /* Down Banner Section */
 .down-banner-section {
-    margin-left: 150px;
-    margin-right: 150px;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    background-image: url('../images/watch.png');
+    background: url('../images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: #FFFFFF;
     padding: 60px 65px;
     border-radius: 8px;
+    background-blend-mode: soft-light;
 }
 
 .down-banner .title {
     border-bottom: 24px;
 }
 
-
 /* Footer Section */
+.footer-section {
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+    background: #151414;
+    padding: 130px 150px;
+    color: #FFFFFF;
+}
+
+.author-info {
+    max-width: 500px;
+    padding-left: 20px;
+}
+
+#email {
+    margin-top: 26px;
+}
+
+.footer-section .description {
+    margin-top: 16px;
+}
+
+.author-info .icon {
+    margin-top: 32px;
+    padding-right: 18px;
+}
+
+.subscribe-info {
+    max-width: 350px;
+}
+
+.label {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.subscribe-info input[type=email] {
+    border-radius: 5px;
+    padding: 18px 22px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    width: 220px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.subscribe-info input[type=email]::placeholder {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.subscribe-info input[type=submit] {
+    color: #FFFFFF;
+    background: #005FAC;
+}
+
+
+
+
+
