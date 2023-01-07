@@ -6,8 +6,8 @@
 
 /* Common in elements*/
 main{
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 77vw;
+    margin: auto;
 }
 
 section, footer {
@@ -46,8 +46,17 @@ section, footer {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px 170px 120px 700px;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 100vh;
+    padding-right: 170px;
+}
+
+.header-content {
+    width: 35vw;
 }
 
 .header-section .title {
@@ -168,15 +177,14 @@ section, footer {
 .footer-section {
     display: flex;
     justify-content: flex-start;
-    gap: 200px;
+    gap: 180px;
     background: #151414;
-    padding: 130px 150px;
+    padding: 130px 180px;
     color: #FFFFFF;
 }
 
 .author-info {
     max-width: 500px;
-    padding-left: 20px;
 }
 
 #email {
@@ -195,14 +203,9 @@ section, footer {
     padding-right: 18px;
 }
 
-.subscribe-info {
-    max-width: 350px;
-}
-
 .label {
     font-weight: 600;
     font-size: 20px;
-    margin-top: 14px;
 }
 
 .subscribe-info input[type=email] {
@@ -210,7 +213,6 @@ section, footer {
     padding: 14px 22px;
     background-color: transparent;
     border: 1px solid #FFFFFF;
-    width: 220px;
     color: #FFFFFF;
     font-size: 18px;
 }
